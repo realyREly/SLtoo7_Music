@@ -15,7 +15,7 @@ client.on('ready', () => {
   console.log('---------------')
 });
 
-const prefix = "="
+const prefix = "1"
 client.on('message', async msg => {
 	if (msg.author.bot) return undefined;
 	
